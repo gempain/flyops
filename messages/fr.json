@@ -988,5 +988,11 @@
     "productMetadataMissing": "Le produit {productName} manque de métadonnées. Veuillez ajouter les champs de métadonnées requis dans Stripe",
     "productOutOfStock": "Le produit {productName} est en rupture de stock",
     "emailAlreadySubscribed": "Email déjà abonné"
+  },
+  "footer": {
+    "cgv": "Conditions générales de vente",
+    "cgu": "Conditions générales d'utilisation",
+    "rgpd": "Politique de confidentialité",
+    "copyright": "Copyright ©️ Charlie Bravo SRL {year}"
   }
 }

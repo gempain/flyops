@@ -1,0 +1,19 @@
+{{#> layout}}
+<p class="greeting">{{t "contact.email.confirmationGreeting" name=name}}</p>
+
+<p class="message">
+    {{t "contact.email.confirmationText"}}
+</p>
+
+<div class="info-box">
+    <h3 style="color: var(--primary-color); margin-top: 0;">{{t "contact.email.confirmationYourMessage"}}</h3>
+    <p style="white-space: pre-wrap;">{{message}}</p>
+</div>
+
+<p class="message">
+    {{t "contact.email.confirmationRegards"}}
+</p>
+
+<p class="signature">{{t "contact.email.signature"}}</p>
+{{/layout}}
+

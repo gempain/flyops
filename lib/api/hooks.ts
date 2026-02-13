@@ -7,6 +7,14 @@ import {
   UpdateCustomerRole,
   UpdateCustomerRoleResponse,
 } from "@/lib/schemas/customer-role-schema";
+import { ContactFormData, ContactResponse } from "@/lib/schemas/contact-schema";
+
+export function useContactForm(options?: UseMutationOptions<ContactResponse, TranslatableError, ContactFormData>) {
+  return useMutation({
+    mutationFn: (data: ContactFormData) => apiClient.contact.submit(data),
+    ...options,
+  });
+}
 
 export function useAdminCustomers(
   params: CustomersQuery,

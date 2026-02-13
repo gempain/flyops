@@ -988,5 +988,11 @@
     "productMetadataMissing": "Produkt {productName} fehlen Metadaten. Bitte fügen Sie die erforderlichen Metadatenfelder in Stripe hinzu",
     "productOutOfStock": "Produkt {productName} ist nicht auf Lager",
     "emailAlreadySubscribed": "E-Mail bereits abonniert"
+  },
+  "footer": {
+    "cgv": "Allgemeine Verkaufsbedingungen",
+    "cgu": "Allgemeine Nutzungsbedingungen",
+    "rgpd": "Datenschutzrichtlinie",
+    "copyright": "Copyright ©️ Charlie Bravo SRL {year}"
   }
 }

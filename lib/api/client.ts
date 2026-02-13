@@ -9,6 +9,7 @@ import {
   type UpdateCustomerRoleResponse,
   updateCustomerRoleResponseSchema,
 } from "@/lib/schemas/customer-role-schema";
+import { ContactFormData, ContactResponse, contactResponseSchema } from "@/lib/schemas/contact-schema";
 
 interface ApiClientConfig {
   baseUrl?: string;
@@ -62,6 +63,19 @@ class ApiClient {
     }
     return body.data;
   }
+
+  contact = {
+    submit: async (data: ContactFormData): Promise<ContactResponse> => {
+      return this.request<ContactResponse>(
+        "/api/contact",
+        {
+          method: "POST",
+          data,
+        },
+        contactResponseSchema,
+      );
+    },
+  };
 
   customers = {
     admin: {

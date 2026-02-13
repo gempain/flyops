@@ -471,9 +471,6 @@
     "infoEmail": "Email",
     "infoPhone": "Phone",
     "infoAddress": "Address",
-    "addressLine1": "NOA Technologies srl",
-    "addressLine2": "Rue Arsène Grosjean, 6",
-    "addressLine3": "5020 Temploux, Belgium",
     "email": {
       "subject": "Contact Form: {subject}",
       "name": "Name",
@@ -979,5 +976,11 @@
     "productMetadataMissing": "Product {productName} is missing metadata. Please add required metadata fields in Stripe",
     "productOutOfStock": "Product {productName} is out of stock",
     "emailAlreadySubscribed": "Email already subscribed"
+  },
+  "footer": {
+    "cgv": "Terms and Conditions of Sale",
+    "cgu": "Terms of Use",
+    "rgpd": "Privacy Policy",
+    "copyright": "Copyright ©️ Charlie Bravo SRL {year}"
   }
 }

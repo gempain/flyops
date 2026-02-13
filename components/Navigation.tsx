@@ -53,7 +53,7 @@ export default function Navigation() {
                 {publicEnv.NEXT_PUBLIC_ENVIRONMENT}
               </div>
             ) : (
-              <Image src="/logo-noatec.svg" alt="NOATEC" width={96} height={48} className="h-12 w-auto" />
+              <Image src="/assets/logo.png" alt="Flyops Logo" width={96} height={48} className="h-12 w-auto" />
             )}
             {isAdmin && (
               <Badge variant="default" className="bg-purple-600 hover:bg-purple-700">
@@ -185,33 +185,6 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-5">
             <Link href="/" className="text-gray-700 hover:text-gray-900 transition-colors">
               {t("navigation.home")}
-            </Link>
-            <Link href="/products" className="text-gray-700 hover:text-gray-900 transition-colors">
-              {t("navigation.store")}
-            </Link>
-            <DropdownMenu>
-              <DropdownMenuTrigger>
-                <span className="text-gray-700 hover:text-gray-900 transition-colors flex items-center gap-1">
-                  {t("navigation.info")}
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </span>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent>
-                <DropdownMenuItem asChild>
-                  <Link href="/articles">{t("navigation.articles")}</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/manual">{t("navigation.manual")}</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/how-to-use">{t("navigation.how-to-use")}</Link>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-            <Link href="/inprint" className="text-gray-700 hover:text-gray-900 transition-colors">
-              {t("navigation.press")}
             </Link>
             <Link href="/contact" className="text-gray-700 hover:text-gray-900 transition-colors">
               {t("navigation.contact")}

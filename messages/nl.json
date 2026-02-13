@@ -981,5 +981,11 @@
     "productMetadataMissing": "Product {productName} mist metadata. Voeg de vereiste metadatavelden toe in Stripe",
     "productOutOfStock": "Product {productName} is niet op voorraad",
     "emailAlreadySubscribed": "E-mail al geabonneerd"
+  },
+  "footer": {
+    "cgv": "Algemene verkoopvoorwaarden",
+    "cgu": "Algemene gebruiksvoorwaarden",
+    "rgpd": "Privacybeleid",
+    "copyright": "Copyright ©️ Charlie Bravo SRL {year}"
   }
 }

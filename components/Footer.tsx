@@ -1,38 +1,29 @@
 import { Link } from "@/i18n/routing";
-import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer");
+
+  const fullYear = new Date().getFullYear();
   return (
     <footer className="py-16 px-6 bg-white">
       <div className="max-w-4xl mx-auto">
-        {/* Legal Links */}
         <div className="text-center mb-8">
           <Link href="/legal/cgv" className="text-black underline hover:text-brand-green transition-colors">
-            Conditions générales de vente
+            {t("cgv")}
           </Link>
           {" - "}
           <Link href="/legal/cgu" className="text-black underline hover:text-brand-green transition-colors">
-            Conditions générales d&apos;utilisation
+            {t("cgu")}
           </Link>
           {" - "}
           <Link href="/legal/rgpd" className="text-black underline hover:text-brand-green transition-colors">
-            Politique de confidentialité
+            {t("rgpd")}
           </Link>
         </div>
 
-        <div className="flex justify-center mb-8">
-          <Image
-            src="/assets/2020/11/payment-method-logos-v3.jpg"
-            alt="Payment methods"
-            width={262}
-            height={47}
-            className="h-auto"
-          />
-        </div>
-
-        {/* Copyright */}
         <div className="text-center text-gray-600">
-          <p>Droit d&apos;auteur ©2019 NOA Technologies srl</p>
+          <p>{t("copyright", { year: fullYear })}</p>
         </div>
       </div>
     </footer>
