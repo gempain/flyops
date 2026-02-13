@@ -27,7 +27,6 @@ import { useUpdateUrlParams } from "@/lib/hooks/useUpdateUrlParams";
 import { AuthGuard } from "@/components/AuthGuard";
 import { getTranslatedError } from "@/lib/api/translate-error";
 import { useAdminCustomers, useUpdateCustomerRole } from "@/lib/api/hooks";
-import { EditCustomerRoleDialog } from "@/components/admin/EditCustomerRoleDialog";
 import { AdminLayout } from "@/components/admin/AdminLayout";
 
 function Page() {
@@ -288,14 +287,6 @@ function Page() {
           )}
         </CardContent>
       </Card>
-
-      <EditCustomerRoleDialog
-        customer={editingCustomer}
-        isOpen={!!editingCustomer}
-        isPending={updateCustomerRoleMutation.isPending}
-        onClose={() => setEditingCustomer(null)}
-        onSubmit={onSubmit}
-      />
     </AdminLayout>
   );
 }

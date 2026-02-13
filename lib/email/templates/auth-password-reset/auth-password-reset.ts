@@ -9,7 +9,6 @@ export async function sendPasswordReset({ to, resetUrl, locale }: { to: string; 
     data: { resetUrl },
     loaders: {
       id: "auth-password-reset",
-      html: async () => (await import("./html.hbs")).default,
       text: async () => (await import("./text.hbs")).default,
     },
   });

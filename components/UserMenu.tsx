@@ -14,9 +14,8 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { CreditCard, LogOut, Package, Settings, Shield, Users, Warehouse } from "lucide-react";
+import { LogOut, Settings, Shield } from "lucide-react";
 import { role } from "@/lib/auth/role";
-import { useCreateBillingPortal } from "@/lib/api/hooks";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function UserMenu() {
@@ -29,20 +28,6 @@ export default function UserMenu() {
   const handleSignOut = async () => {
     await signOut();
     router.push("/");
-  };
-
-  const billingPortalMutation = useCreateBillingPortal({
-    onSuccess: (data) => {
-      if (data.url) {
-        window.location.href = data.url;
-      }
-    },
-  });
-
-  const handlGoToCustomerPortal = () => {
-    billingPortalMutation.mutate({
-      locale: locale as "en" | "fr" | "de" | "nl",
-    });
   };
 
   if (isPending) {
@@ -87,18 +72,6 @@ export default function UserMenu() {
                 {t("adminOrders")}
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
-              <Link href="/admin/stock" className="flex items-center cursor-pointer">
-                <Warehouse className="w-4 h-4 mr-2" />
-                {t("adminStock")}
-              </Link>
-            </DropdownMenuItem>
-            <DropdownMenuItem asChild>
-              <Link href="/admin/customers" className="flex items-center cursor-pointer">
-                <Users className="w-4 h-4 mr-2" />
-                {t("adminCustomers")}
-              </Link>
-            </DropdownMenuItem>
           </>
         )}
         <DropdownMenuSeparator />
@@ -108,16 +81,6 @@ export default function UserMenu() {
             <Settings className="w-4 h-4 mr-2" />
             {t("accountSettings")}
           </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/orders" className="flex items-center cursor-pointer">
-            <Package className="w-4 h-4 mr-2" />
-            {t("myOrders")}
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={handlGoToCustomerPortal} className="flex items-center cursor-pointer">
-          <CreditCard className="w-4 h-4 mr-2" />
-          <div className="flex flex-col">{billingPortalMutation.isPending ? t("loading") : t("billingPortal")}</div>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={handleSignOut} className="flex items-center cursor-pointer text-red-600">

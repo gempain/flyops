@@ -5,7 +5,7 @@ export async function sendEmailVerification({
   to,
   verificationUrl,
   locale,
-  name
+  name,
 }: {
   to: string;
   verificationUrl: string;
@@ -19,7 +19,6 @@ export async function sendEmailVerification({
     data: { verificationUrl, name },
     loaders: {
       id: "auth-email-verification",
-      html: async () => (await import("./html.hbs")).default,
       text: async () => (await import("./text.hbs")).default,
     },
   });

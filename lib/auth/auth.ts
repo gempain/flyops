@@ -7,22 +7,17 @@ import { sendEmailVerification } from "@/lib/email/templates/auth-email-verifica
 import { sendPasswordReset } from "@/lib/email/templates/auth-password-reset/auth-password-reset";
 import { role } from "@/lib/auth/role";
 import { $locale, Locale } from "@/lib/locale";
-import { stripe } from "@/lib/stripe/client";
-import { validateCustomerMetadata } from "@/lib/schemas/customer-metadata-schema";
 
 async function getLocale(email: string, request: Request | undefined): Promise<Locale> {
-  const {
-    data: [customer],
-  } = await stripe.customers.list({ email: email, limit: 1 });
-
-  if (customer) {
-    try {
-      const { locale } = validateCustomerMetadata(customer);
-      return locale;
-    } catch {
-      return "fr";
-    }
-  }
+  // TODO create custom property for user to add locale next to role
+  // if (customer) {
+  //   try {
+  //     const { locale } = validateCustomerMetadata(customer);
+  //     return locale;
+  //   } catch {
+  //     return "fr";
+  //   }
+  // }
 
   const localFromHeaders = $locale.safeParse(
     request?.headers.get("accept-language")?.split(",")[0]?.split("-")[0],

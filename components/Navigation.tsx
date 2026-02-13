@@ -14,7 +14,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import UserMenu from "@/components/UserMenu";
-import BasketIcon from "@/components/BasketIcon";
 import { useSession } from "@/lib/auth/client";
 import { role } from "@/lib/auth/role";
 import { Badge } from "@/components/ui/badge";
@@ -64,7 +63,6 @@ export default function Navigation() {
           </Link>
 
           <div className="flex items-center gap-3 md:hidden">
-            <BasketIcon />
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild>
                 <button className="p-2 text-gray-700 hover:text-gray-900 transition-colors cursor-pointer">
@@ -240,8 +238,6 @@ export default function Navigation() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-
-            <BasketIcon />
 
             <UserMenu />
           </div>
