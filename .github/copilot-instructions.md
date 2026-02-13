@@ -1,0 +1,6 @@
+- Use @tanstack/react-query, react-hook-form and zod validation when possible
+- Api routes should use zod validators
+- Never expose internal errors to the frontend unless we control the message
+- use native shadcn/ui components as much as possible
+- when using shadcn components, install them via the CLI instead of creating them by hand
+- when possible dot not use styling magic numbers / values but instead customize Tailwind's theme

@@ -1,0 +1,40 @@
+{{#> layout}}
+<p class="greeting">{{t "contact.email.adminGreeting"}}</p>
+
+<p class="message">
+    {{t "contact.email.adminNewMessage"}}
+</p>
+
+<div class="info-box">
+    <h3 style="color: var(--primary-color); margin-top: 0;">{{t "contact.email.adminContactInfo"}}</h3>
+
+    <div class="info-label">{{t "contact.email.name"}}:</div>
+    <div class="info-value">{{name}}</div>
+
+    <div class="info-label">{{t "contact.email.email"}}:</div>
+    <div class="info-value">{{email}}</div>
+
+    <div class="info-label">{{t "contact.email.phone"}}:</div>
+    <div class="info-value">
+        {{#if phone}}
+            {{phone}}
+        {{else}}
+            {{t "contact.email.notProvided"}}
+        {{/if}}
+    </div>
+
+    <div class="info-label">{{t "contact.formSubject"}}:</div>
+    <div class="info-value">{{subject}}</div>
+</div>
+
+<div class="info-box">
+    <h3 style="color: var(--primary-color); margin-top: 0;">{{t "contact.email.adminMessageTitle"}}</h3>
+    <p style="white-space: pre-wrap;">{{message}}</p>
+</div>
+
+<p class="message" style="font-size: 14px; color: #666;">
+    {{t "contact.email.adminTip" email=email}}
+</p>
+
+<p class="signature">{{t "contact.email.signature"}}</p>
+{{/layout}}

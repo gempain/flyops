@@ -1,0 +1,35 @@
+{{t "orderEmail.customer.greeting" name=name}}
+
+{{t "orderEmail.customer.confirmationMessage"}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 📦
+{{t "orderEmail.customer.orderSummary"}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{#each lineItems}}
+  {{this.description}}
+  {{t "orderEmail.customer.quantityLabel"}}:
+  {{this.quantity}}
+  -
+  {{this.formattedAmount}}
+
+{{/each}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{{t "orderEmail.customer.totalLabel"}}:
+{{formattedTotal}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{t "orderEmail.customer.orderNumberLabel"}}:
+{{orderId}}
+{{t "orderEmail.customer.orderDateLabel"}}:
+{{orderDate}}
+
+{{t "orderEmail.customer.nextStepsMessage"}}
+
+{{t "orderEmail.customer.trackOrderButton"}}:
+🔗 {{{trackOrderUrl}}}
+
+{{t "orderEmail.customer.signature"}}
+
+{{t "orderEmail.customer.footerMessage"}}
+🔗 {{{contactUrl}}}

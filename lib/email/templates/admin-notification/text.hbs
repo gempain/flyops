@@ -1,0 +1,35 @@
+{{t "contact.email.adminGreeting"}}
+
+{{t "contact.email.adminNewMessage"}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{{t "contact.email.adminContactInfoText"}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{t "contact.email.name"}}:
+{{name}}
+
+{{t "contact.email.email"}}:
+{{email}}
+
+{{t "contact.email.phone"}}:
+{{#if phone}}
+  {{phone}}
+{{else}}
+  {{t "contact.email.notProvided"}}
+{{/if}}
+
+{{t "contact.formSubject"}}:
+{{subject}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{{t "contact.email.adminMessageText"}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{message}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{t "contact.email.adminTip" email=email}}
+
+{{t "contact.email.signature"}}

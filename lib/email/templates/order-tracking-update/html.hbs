@@ -1,0 +1,41 @@
+{{#> layout}}
+<div style="text-align: center;">
+    <span class="badge">{{t "trackingEmail.badge"}}</span>
+</div>
+
+<p class="greeting">{{t "trackingEmail.greeting" name=name}}</p>
+
+<p class="message">{{t "trackingEmail.message"}}</p>
+
+<div class="info-box">
+    <div style="margin-bottom: 15px;">
+        <div class="info-label">{{t "trackingEmail.orderNumberLabel"}}</div>
+        <div class="info-value">#{{orderId}}</div>
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <div class="info-label">{{t "trackingEmail.trackingNumberLabel"}}</div>
+        <div style="font-family: 'Courier New', monospace; background: white; padding: 10px 15px; border-radius: 5px; border: 1px solid #ddd; font-size: 16px; font-weight: bold; color: var(--primary-color);">
+            {{trackingNumber}}
+        </div>
+    </div>
+
+    {{#if carrierName}}
+    <div style="margin-bottom: 15px;">
+        <div class="info-label">{{t "trackingEmail.carrierLabel"}}</div>
+        <div class="info-value">{{carrierName}}</div>
+    </div>
+    {{/if}}
+</div>
+
+{{#if trackingUrl}}
+<p class="centered">
+    <a href="{{trackingUrl}}" class="button">{{t "trackingEmail.trackButton"}}</a>
+</p>
+{{/if}}
+
+<p class="signature">{{t "trackingEmail.signature"}}</p>
+
+<p class="message">{{t "trackingEmail.footerMessage"}} <a href="{{contactUrl}}">{{t "trackingEmail.contactUs"}}</a></p>
+{{/layout}}
+

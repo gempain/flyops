@@ -1,0 +1,24 @@
+{{#> layout}}
+<p class="greeting">{{t "auth.emailMessages.passwordResetGreeting"}}</p>
+
+<p class="message">
+    {{t "auth.emailMessages.passwordResetText"}}
+</p>
+
+<p class="centered">
+    <a href="{{resetUrl}}" class="button">
+        {{t "auth.emailMessages.passwordResetLinkLabel"}}
+    </a>
+</p>
+
+<p class="message">
+    {{t "auth.emailMessages.passwordResetExpiry"}}
+</p>
+
+<p class="message">
+    {{t "auth.emailMessages.passwordResetIgnore"}}
+</p>
+
+<p class="signature">{{t "auth.emailMessages.signature"}}</p>
+{{/layout}}
+

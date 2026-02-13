@@ -1,0 +1,24 @@
+{{#> layout}}
+<p class="greeting">{{t "auth.emailMessages.verificationGreeting"}}</p>
+
+<p class="message">
+    {{t "auth.emailMessages.verificationText"}}
+</p>
+
+<p class="centered">
+    <a href="{{verificationUrl}}" class="button">
+        {{t "auth.emailMessages.verificationLinkLabel"}}
+    </a>
+</p>
+
+<p class="message">
+    {{t "auth.emailMessages.verificationExpiry"}}
+</p>
+
+<p class="message">
+    {{t "auth.emailMessages.verificationIgnore"}}
+</p>
+
+<p class="signature">{{t "auth.emailMessages.signature"}}</p>
+{{/layout}}
+

@@ -1,0 +1,47 @@
+{{t "orderEmail.admin.greeting"}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 📋
+{{t "orderEmail.admin.orderDetailsTitle"}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{t "orderEmail.admin.orderNumberLabel"}}:
+{{orderId}}
+{{t "orderEmail.admin.orderDateLabel"}}:
+{{orderDate}}
+{{t "orderEmail.admin.invoiceLabel"}}:
+{{invoiceId}}
+{{t "orderEmail.admin.paymentLabel"}}:
+{{t "orderEmail.admin.paymentStatus"}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 👤
+{{t "orderEmail.admin.customerInfoTitle"}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{t "orderEmail.admin.nameLabel"}}:
+{{customerName}}
+{{t "orderEmail.admin.emailLabel"}}:
+{{customerEmail}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 📦
+{{t "orderEmail.admin.orderItemsTitle"}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{{#each lineItems}}
+  {{this.description}}
+  {{t "orderEmail.admin.quantityLabel"}}:
+  {{this.quantity}}
+  -
+  {{this.formattedAmount}}
+
+{{/each}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{{t "orderEmail.admin.totalLabel"}}:
+{{formattedTotal}}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ⚠️
+{{t "orderEmail.admin.actionRequiredTitle"}}
+{{t "orderEmail.admin.actionRequiredMessage"}}
+
+{{t "orderEmail.admin.viewDashboardButton"}}:
+🔗 {{{dashboardUrl}}}
+
+{{t "orderEmail.admin.signature"}}
