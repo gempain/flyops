@@ -15,9 +15,7 @@
     "pretest": "env-cmd -f .env.test drizzle-kit push",
     "test": "vitest --run",
     "test:coverage": "vitest --run --coverage",
-    "migrate:clone-woo": "ts-node -r tsconfig-paths/register -P tsconfig.scripts.json scripts/woo-to-stripe/clone-woo-data.ts",
-    "migrate:clone-stripe": "ts-node -r tsconfig-paths/register -P tsconfig.scripts.json scripts/woo-to-stripe/clone-stripe-data.ts",
-    "migrate:check-data": "ts-node -r tsconfig-paths/register -P tsconfig.scripts.json scripts/woo-to-stripe/check-data.ts"
+    "translations:cleanup": "ts-node -r tsconfig-paths/register -P tsconfig.scripts.json scripts/cleanup-translations.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -75,6 +73,7 @@
     "env-cmd": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.8",
+    "glob": "^13.0.3",
     "happy-dom": "^20.0.11",
     "ngrok": "^5.0.0-beta.2",
     "prettier": "^3.7.4",

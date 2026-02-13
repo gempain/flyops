@@ -28,6 +28,23 @@ npm run migrate:clone-stripe
 npm run migrate:check-data
 ```
 
+## Translation Management
+
+To remove unused translation keys from all language files:
+
+```bash
+npm run translations:cleanup
+```
+
+This script will:
+1. Scan all files in `app/`, `lib/`, and `components/` directories
+2. Find all `useTranslations()` calls and extract namespaces
+3. Find all `t()` calls and extract keys
+4. Build a list of used translation paths
+5. Remove unused keys from all translation files in `messages/`
+
+**Note:** The script preserves the JSON structure and only removes keys that are not referenced in your code.
+
 ## Prod setup
 
 ### Stripe setup

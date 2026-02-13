@@ -7,449 +7,9 @@
     "press": "Press",
     "contact": "Contact",
     "info": "Info",
-    "faq": "FAQ",
     "articles": "Articles",
     "menu": "Menu",
     "language": "Language"
-  },
-  "home": {
-    "video1Title": "NOA Technology Introduction",
-    "video2Title": "Experience NOA",
-    "video3Title": "NOA in Action",
-    "whyNoa": "Why NOA?",
-    "hero": {
-      "title": "NOA,<br>Natural Oscillation Activator …"
-    },
-    "launch": {
-      "text": "The brand new NOA cushion was launched on April 2, 2020!",
-      "subtext": " Be among the first to enjoy it.",
-      "cta": "Order now"
-    },
-    "problem": {
-      "title1": "Humans are made to move",
-      "title2": "Yet we spend most of our time sitting.",
-      "description": "<p>Sitting to learn or work.<br />Sitting in transport.<br />Sitting for pleasure.</p><p>The harmful effects of this sedentary lifestyle on health are recognized by numerous studies, including the WHO.</p><p>Back pain, chronic fatigue, attention deficit caused by lack of oxygen, degenerative nerve and cardiovascular diseases and even cancers... <strong>Prolonged sitting affects all the body's organs and erodes our health capital day after day without us realizing it.</strong></p>"
-    },
-    "solution": {
-      "title": "NOA, the solution to combat the \"DISEASE OF THE CENTURY\"",
-      "description": "<p>The recommendations are simple: move more and above all, all the time. Indeed, the enemy is not lack of sport but excess immobility.</p><p>The unique design of this cushion is based on a <strong>constant air displacement</strong> that is almost imperceptible between its two pockets. NOA forces you to stay in motion to maintain your balance. This perpetual movement forces you to adopt a <strong>natural and dynamic sitting posture</strong>.</p><p>Your pelvis and back are no longer immobilized for hours, they move, undulate, stretch and contract. Your health is preserved.</p>"
-    },
-    "forWhom": "For whom?",
-    "audience": {
-      "children": {
-        "title": "Children",
-        "content1": "From primary school, our children spend most of their day... <b>sitting poorly</b>. Back home, homework, dinner, TV and game consoles keep them sitting or slouched on a couch!",
-        "content2": "Attention and concentration disorders, decreased school performance are the direct consequences, often unknown to education and health professionals. The NOA cushion is the solution to <b>prevent their back problems and increase their concentration abilities</b>."
-      },
-      "adults": {
-        "title": "Adults",
-        "content": "You sit at least 7 to 8 hours a day! It's time to adopt a healthier lifestyle despite your professional activities and habits. Natural and comfortable, NOA forces you to energize your sitting position effortlessly, whether or not you suffer from back pain."
-      },
-      "pregnant": {
-        "title": "Pregnant women",
-        "content": "Three out of four women suffer from back problems during pregnancy. These pains, often linked to compensation mechanisms or poor posture, can be relieved thanks to the reflex rebalancing imposed by NOA."
-      },
-      "elderly": {
-        "title": "Elderly or people with reduced mobility",
-        "content1": "If active people stay sitting too long, it's even more true for elderly or people with reduced mobility. NOA adapts to all types of seats to ensure optimal lumbar support, comfortable seating and physical and intellectual stimulation.",
-        "content2": "Aware that each individual is different, we designed NOA to be the junction between your chair and your body. It will adapt to you at every moment, whatever your <b>morphology</b> and <b>age</b>."
-      }
-    },
-    "learnMore": "Learn more",
-    "featuresTitle": "Six reasons to fall in love",
-    "features": {
-      "nomadic": {
-        "title": "Nomadic",
-        "description": "<p>NOA is resolutely modern and in line with our current lifestyle. It can be used at any time and on any hard or soft surface: a chair, an armchair, a bench, a car seat... at the office, at home or at a show... Are you sitting? Your cushion follows you everywhere!</p>"
-      },
-      "foldable": {
-        "title": "Foldable",
-        "description": "<p>It folds and unfolds in the blink of an eye. Carry it under your arm or slip it easily into your backpack or your child's school bag to take it everywhere with you.</p>"
-      },
-      "lightweight": {
-        "title": "Ultra light",
-        "description": "<p>Your cushion will weigh barely more than an apple, for minimal bulk.</p>"
-      },
-      "selfInflating": {
-        "title": "Self-inflating and practical",
-        "description": "<p>Its self-inflating design allows you to use it instantly, in all circumstances and in any type of environment. Don't be afraid to get it dirty, its cover is <strong>machine washable</strong>.</p>"
-      },
-      "healthy": {
-        "title": "Healthy",
-        "description": "<p>Designed to make you feel at home everywhere, NOA is good for your body and mind.</p>"
-      },
-      "allAges": {
-        "title": "6 > 99 years",
-        "description": "<p>Enjoy the benefits of the NOA cushion throughout your life, ... from 6 to 99 years old. </p>"
-      }
-    },
-    "conclusion": {
-      "text": "<p>NOA's innovation lies in its ability to make you adopt an adequate sitting position <strong>effortlessly</strong>, to the point that it will quickly be forgotten! A true link between the asymmetry of your body and the symmetry of our furniture, it will become an <strong>essential</strong> part of your daily life.</p>"
-    },
-    "contact": {
-      "title": "Contact",
-      "description": "<p>Are you seduced by our philosophy but have questions about our product? For any contact, please write to us at the following email address: <a href=\"mailto:info@noatec.eu\" style=\"text-decoration:underline;\">info@noatec.eu</a></p>"
-    },
-    "companyInfo": {
-      "title": "Headquarters",
-      "companyName": "NOA Technologies srl",
-      "address": "Rue Arsène Grosjean, 6 - 5020 Temploux - Belgium",
-      "registration": "Company No. 0728 877 103 - VAT No.: BE 0728877103",
-      "followFacebook": "Follow on Facebook",
-      "followLinkedIn": "Follow on LinkedIn"
-    }
-  },
-  "articles": {
-    "title": "Articles",
-    "readMore": "Read article",
-    "by": "by",
-    "backToArticles": "Back to articles",
-    "categories": {
-      "elderly": "People with reduced mobility",
-      "adults": "Adults",
-      "children": "Children",
-      "pregnancy": "Pregnant women"
-    },
-    "article1": {
-      "title": "Why use the NOA cushion for elderly people (or those with reduced mobility)",
-      "author": "Maria",
-      "date": "May 3, 2020",
-      "category": "People with reduced mobility",
-      "image": "/articles/elderly-main.jpg",
-      "intro": "Everywhere in the world, life expectancy is increasing. Healthy elderly people remain autonomous for a long time. However, if their health does not allow them to maintain their physical and mental capacities, they quickly become sedentary, dependent and age much more rapidly.",
-      "sedentaryTitle": "The Problem of Sedentary Lifestyle",
-      "sedentaryContent": "Elderly or people with reduced mobility spend even more time sitting than active people. This prolonged immobility leads to serious consequences for their health and well-being:",
-      "sedentaryList": [
-        "Worsening of back and joint pain",
-        "Decreased blood circulation",
-        "Loss of muscle tone",
-        "Increased risk of cardiovascular disorders",
-        "Social isolation and depression"
-      ],
-      "solutionTitle": "NOA: An Adapted Solution",
-      "solutionContent": "The NOA cushion has been designed to adapt to everyone, including elderly and people with reduced mobility. Its constant air displacement system stimulates gentle and continuous muscle activity, without conscious effort from the user.",
-      "benefitsTitle": "Benefits for Seniors",
-      "benefitsList": [
-        "<strong>Muscle tone maintenance:</strong> Micro-movements gently engage back and pelvis muscles",
-        "<strong>Improved circulation:</strong> Constant movement promotes blood circulation",
-        "<strong>Pressure sore prevention:</strong> Alternating pressure points reduces risks",
-        "<strong>Cognitive stimulation:</strong> Balance maintenance stimulates brain functions",
-        "<strong>Optimal comfort:</strong> Adapts to all types of seats (armchair, chair, wheelchair)"
-      ],
-      "usageTitle": "Easy to Use",
-      "usageContent": "The NOA cushion requires no special effort. Just sit on it and the system does the rest. Light and portable, it can be used at home, in nursing homes or when traveling.",
-      "conclusion": "<strong>Conclusion:</strong> The NOA cushion offers a simple and effective solution to maintain physical activity and comfort for elderly or people with reduced mobility, thus contributing to their well-being and autonomy.",
-      "extendedIntro": "Everywhere in the world, life expectancy is increasing. Healthy elderly people remain autonomous for a long time. However, if their health does not allow them to maintain their physical and mental capacities, they quickly become sedentary, dependent and age much more rapidly. <strong>The NOA cushion helps elderly people age more slowly, meaning staying autonomous and healthy longer.</strong>",
-      "howToAgeLessTitle": "How to age more slowly?",
-      "howToAgeLessContent": "<strong>Physical activity has effects that oppose those of aging.</strong> 1- Practiced regularly, physical activity slows the decrease in muscle mass related to advancing age. 2- Simultaneously, regular physical activity limits the increase in fat mass and associated metabolic problems, such as glucose intolerance, which prevents diabetes. 3- Regular physical activity also preserves cardiovascular and respiratory functions. Even when started at an advanced age, it will have positive effects on health.",
-      "image2": "/articles/elderly-02.jpg",
-      "stayingFitContent": "<strong>To age \"in shape\", it is therefore important not to abandon activities:</strong> – that stimulate the body's adaptive capacities, by maintaining or even improving the basic intellectual, physical and relational capital, and – that preserve from diseases (flu, cardiovascular diseases, ...), by taking early care of diseases or disorders that are likely to cause cascade disorders of other body functions (walking disorders, depressive state, nutritional status alteration, ...).",
-      "agingProblemsTitle": "Aging Problems",
-      "agingProblemsContent": "<strong>Fall risks</strong> are a real problem for elderly people. Muscle loss, impaired sensory capacities, medication intake, orthostatic hypotension, ... are factors that promote falls. Prevention is the only way to reduce risks by adapting one's environment. But regularly practicing physical activity helps preserve reflexes and muscle mass. Elderly people walk with increased anterior pelvic rotation (downward) and with increased lumbar lordosis. This postural change is usually due to a combination of weak abdominal muscles, tension in hip flexor muscles and increased abdominal fat. <strong>Pressure sore risk</strong> is another problem for elderly and people with reduced mobility. A pressure sore is a wound resulting from tissue hypoxia caused by excessive and prolonged pressure over time, on a hard surface, of a bony prominence. The sacrum is typically most affected in sitting position when the person slides in their chair. Tissue crushing causes narrowing or even occlusion of skin capillaries, which can cause a wound.",
-      "goodSupportTitle": "It is important that the person sits on good support",
-      "image3": "/articles/elderly-03.jpg",
-      "goodSupportContent": "If the seat is too hard, the contact area is very reduced and all the weight then rests only on this small surface, which increases pressure. If the surface is too soft, the pelvis sinks excessively into the seat, but pressure concentrates at body protrusion points (sacrum and ischium), and increases at these locations. Moreover, the pelvis is then unfortunately completely immobilized. Good support is one where the person sinks slightly but where they are supported everywhere in the same way. The contact surface is larger and the pressure, evenly distributed, is therefore much less.",
-      "whyNoaTitle": "Why sit on the NOA cushion?",
-      "whyNoaContent": "<strong>To exercise gently</strong> The NOA cushion keeps you moving. It allows you to maintain tone naturally throughout the day. It strengthens your muscles gently thanks to barely perceptible instability. By maintaining the three curves naturally without effort, the NOA cushion stimulates your general metabolism (see photo). <strong>To reduce tissue pressure during prolonged sitting</strong> The cushion evenly distributes pressure over the entire contact surface and preserves skin tissues. <strong>To improve brain activity</strong> Thanks to the cushion, the head repositions well above the shoulders and the vessels that supply the brain are no longer compressed. It thus improves your blood circulation and therefore cell and brain oxygenation.",
-      "image4": "/articles/correct-sitting-position.jpg"
-    },
-    "article2": {
-      "title": "Why is prolonged sitting bad for your back?",
-      "author": "Anne",
-      "date": "Nov 26, 2019",
-      "category": "Adults",
-      "image": "/articles/back-pain-main.jpg",
-      "intro": "The spine is composed of 33 vertebrae, intervertebral discs, muscles and ligaments. Intervertebral discs play a crucial role as support points for movement and shock absorbers for the vertebrae.",
-      "effectsTitle": "Effects of Prolonged Sitting",
-      "effectsContent": "When you sit for long periods, several harmful phenomena occur:",
-      "effectsList": [
-        "<strong>Disc compression:</strong> Body weight continuously compresses intervertebral discs",
-        "<strong>Loss of mobility:</strong> Back and pelvis muscles stiffen",
-        "<strong>Poor circulation:</strong> Blood flows less well, depriving tissues of oxygen",
-        "<strong>Poor posture:</strong> We tend to slouch, worsening the situation"
-      ],
-      "consequencesTitle": "Long-term Consequences",
-      "consequencesContent": "Over time, this prolonged immobility can lead to:",
-      "consequencesList": [
-        "Herniated discs",
-        "Chronic lower back pain",
-        "Sciatica",
-        "Joint stiffness",
-        "Disc degeneration"
-      ],
-      "solutionTitle": "The Solution: Dynamic Movement",
-      "solutionContent": "The NOA cushion transforms your static sitting into dynamic sitting. Constant micro-movements stimulate circulation, keep muscles active and reduce pressure on intervertebral discs.",
-      "conclusion": "<strong>Conclusion:</strong> Moving even slightly while sitting is essential to preserve your back health. NOA helps you do it naturally and effortlessly.",
-      "extendedIntro": "The spine is composed of 33 vertebrae, intervertebral discs, muscles and ligaments. Intervertebral discs play a crucial role as support points for movement and shock absorbers for the vertebrae. When you jump, when you have poor posture... or simply when you sit, your intervertebral discs compress to protect your vertebrae by absorbing the shock or excess pressure.",
-      "howItWorksTitle": "How does it work?",
-      "howItWorksContent": "The intervertebral disc is composed of an outer fibrous ring and a gelatinous nucleus. This nucleus, made of more than 90% water, generates internal hydraulic pressure. This hydraulic pressure varies depending on the positioning of the vertebrae, thus on the position adopted and movements performed. Throughout the day, depending on your position, this hydraulic pressure empties the nucleus of its water, which reduces its shock-absorbing capacity.",
-      "image2": "/articles/back-pain-01.jpg",
-      "image3": "/articles/back-pain-02.jpg",
-      "rehydrationContent": "Fortunately, the nucleus recharges with water thanks to the presence of hydrophilic cells (attracting water) that rehydrate it when pressure decreases in lying position at night.",
-      "negativeEffectsTitle": "Prolonged non-dynamic sitting position has negative effects on posture. It can cause skeletal and muscular disorders but also increases the risk of many health problems such as:",
-      "negativeEffectsList": [
-        "Cardiovascular diseases, high blood pressure, ...",
-        "Slowing of blood circulation depriving the body of its proper oxygen supply and thus proper cell function",
-        "Increase in body weight, with increased risk of type 2 diabetes",
-        "Increased risk of colon, prostate, breast cancer...",
-        "Negative consequences on the brain which receives less oxygen",
-        "Liver and kidney problems",
-        "......"
-      ],
-      "pressureStudyContent": "Studies show that if, in standing position, the pressure between the 3rd and 4th lumbar vertebrae corresponds to an index of 100, the pressure can rise to an index of 200 in poor sitting position. And each day spent in sitting position reproduces the same constraints which in the long run can have a negative impact on your health.",
-      "whyNoaBackTitle": "Why adopt dynamic sitting with NOA for your back?",
-      "whyNoaBackContent": "The dynamic sitting provided by the NOA cushion stimulates the erector muscles of the spine, which reduces pressure on intervertebral discs. It thus allows them to ensure their shock-absorbing role longer. It also allows better vascularization of this entire body area. It therefore promotes oxygen transport in the blood, essential for proper functioning of back muscles. This better vascularization also nourishes the intervertebral discs. Moreover, adopting dynamic sitting with the NOA cushion will help you become aware of your back position. It will allow you to regain a healthy sitting position respecting the three morphological curves of the back and neck.",
-      "image4": "/articles/back-woman.jpg",
-      "whyNoaHealthTitle": "Why adopt dynamic sitting with NOA for your health?",
-      "whyNoaHealthContent": "Beyond that, the dynamic sitting provided by the NOA cushion prevents the body from entering lethargy. Maintaining correct posture while sitting requires a certain effort that we are unable to maintain over time. We must constantly reposition ourselves to avoid a position that becomes harmful to our health. In sitting position, the spine no longer has its three natural curves, the pelvis spontaneously tilts backward, the discs are pinched forward, the nucleus slides backward, the viscera and vessels are compressed. Even if they seem minimal, the cushion allows maintenance and compensation exercises through the movements it generates. These imperceptible movements force your muscles to work during all hours spent sitting. In doing so, the cushion will strengthen, among other things, your back muscles, an effective way to prevent back pain and improve organ function. Your overall health will be improved."
-    },
-    "article3": {
-      "title": "Children and sitting position",
-      "author": "Anne",
-      "date": "Jan 27, 2020",
-      "category": "Children",
-      "image": "/articles/children-main.jpg",
-      "intro": "Throughout life, our spine is extremely stressed. The spine is composed of vertebrae, muscles and discs that separate the vertebrae and act as shock absorbers. Excessive stress such as frequent and poorly executed movements can cause damage.",
-      "childrenTitle": "Children, First Victims",
-      "childrenContent": "From primary school, our children spend most of their day sitting poorly. Back home, homework, dinner, TV and game consoles keep them sitting or slouched on a couch.",
-      "consequencesTitle": "Consequences on Health and Learning",
-      "consequencesList": [
-        "<strong>Attention and concentration disorders:</strong> Lack of movement reduces brain oxygenation",
-        "<strong>Decreased school performance:</strong> Poor posture affects cognitive abilities",
-        "<strong>Early back pain:</strong> Problems that set in from childhood",
-        "<strong>Chronic fatigue:</strong> Immobility exhausts instead of resting"
-      ],
-      "preventionTitle": "NOA: Prevention from an Early Age",
-      "preventionContent": "The NOA cushion is the solution to prevent these back problems and increase children's concentration abilities. By maintaining constant micro-movement, NOA:",
-      "preventionList": [
-        "Improves brain oxygenation",
-        "Maintains dynamic and healthy posture",
-        "Prevents back pain",
-        "Increases concentration and school performance"
-      ],
-      "conclusion": "<strong>Conclusion:</strong> Investing in a NOA cushion for your child means investing in their future health and school success.",
-      "extendedIntro": "Throughout life, our spine is extremely stressed. The spine is composed of vertebrae, muscles and discs that separate the vertebrae and act as shock absorbers. Excessive stress such as frequent and repetitive movements, carrying loads, overly intense sports, or even prolonged sitting position, ... can cause wear and degeneration of our spine, and cause most lower back pain.",
-      "physiologyContent": "From a physiological point of view, the nucleus of intervertebral discs is composed of 90% water, hence its shock-absorbing properties. The only non-vascularized tissue, the nucleus deflates when compressed. It only reinflates by pressure reduction (osmosis) when we are lying down. Like in adults, back pain is increasingly common in children and adolescents. Specialists estimate that, depending on age, 20 to 50% of children between 10 and 15 years old have back pain.",
-      "schoolHoursTitle": "During their schooling, a student spends approximately 6.5 hours per day at school, in sitting position.",
-      "image2": "/articles/classroom.jpg",
-      "furnitureContent": "Unfortunately, school furniture is not adapted to each child. The size of children and adolescents varies greatly at each age, hence the difficulty of providing correct furniture adapted to each child in schools. The horizontal work surface also forces the child to lower their head and bend over to work.",
-      "damageTitle": "Prolonged sitting position at school damages our children's backs... from age 6.",
-      "consequencesIntro": "The consequences are mechanical and neurological in nature.",
-      "mechanicalTitle": "Mechanical consequences",
-      "mechanicalContent": "Abnormal stress on the child's and adolescent's spine during the sensitive period of their growth influences their back's future and promotes lower back pain in adulthood. The child's trunk muscles are not yet sufficiently developed and powerful to support without great effort maintaining sitting position for hours. Their attention in class decreases because it is then more directed towards this intense muscular effort imposed on them, causing distraction. A well-adjusted seat will help them by reducing the muscular constraints and mental effort necessary to sit for a long time. The child will fidget less in their chair. By moving, children often only seek to compensate for muscular tensions.",
-      "neurologicalTitle": "Neurological consequences",
-      "neurologicalContent": "In the child in class, there are two types of behaviors in response to the constraints of prolonged sitting position: the \"well-behaved\" child who doesn't move but ends up slumping in their seat; the \"restless\" child who keeps moving, is distracted and unfocused. Between 6 and 12 years old, the child is in full motor development. They still need to refine their body schema. Their brain uses tactile, proprioceptive, vestibular and visual integration mechanisms that lead to either a muscular response or relaxation.",
-      "whyOfferTitle": "Why offer a cushion to your children?",
-      "whyOfferContent": "The NOA cushion helps maintain the three natural curves of the spine in sitting position (see right photo) and dynamize sitting. Spontaneously, when sitting, the pelvis tends to tilt backward (see left photo). The cushion facilitates repositioning the pelvis forward (see right photo). This correct and natural posture is essential for maintaining attention, alertness and listening and to <strong>promote task perseverance</strong>. Indeed, repositioning the head above the shoulders promotes good brain vascularization, beneficial for good concentration and better learning.",
-      "image5": "/articles/sitting-posture.png",
-      "additionalBenefitContent": "Furthermore, seating the child on a dynamic sitting cushion will generate imperceptible movements of the pelvis and back muscles that will allow them to grow by strengthening the spinal erector muscles and avoid back pain caused by prolonged sitting position.",
-      "finalMessageTitle": "Think about preventing the harmful effects of sitting position in your children",
-      "finalMessageSubtitle": "by seating them on a <strong>NOA</strong> cushion, at school as at home."
-    },
-    "article4": {
-      "title": "What happens during your pregnancy?",
-      "author": "Anne",
-      "date": "Dec 14, 2019",
-      "category": "Pregnant women",
-      "image": "/articles/pregnancy-main.jpg",
-      "intro": "Pregnancy causes lumbar and pelvic pain without severity but they are signs of a baby developing in your belly. Three out of four women suffer from back problems during pregnancy.",
-      "causesTitle": "Causes of Pain",
-      "causesContent": "Different phenomena are linked to these pains:",
-      "causesList": [
-        "<strong>Increased uterus volume:</strong> Progressive stretching of ligaments supporting the uterus",
-        "<strong>Posture modification:</strong> The center of gravity shifts forward",
-        "<strong>Ligament relaxation:</strong> Pregnancy hormones soften joints",
-        "<strong>Weight gain:</strong> Additional load on the spine",
-        "<strong>Prolonged sitting:</strong> Aggravates compression and tensions"
-      ],
-      "compensationTitle": "Compensation Mechanisms",
-      "compensationContent": "To compensate for the center of gravity shift, the body adopts postures that can worsen pain:",
-      "compensationList": [
-        "Increased lumbar curvature",
-        "Pelvis tilting forward",
-        "Tensions in back muscles",
-        "Nerve compression (especially sciatic nerve)"
-      ],
-      "howNoaHelpsTitle": "How NOA Can Help",
-      "howNoaHelpsContent": "The NOA cushion offers dynamic support that can greatly relieve pregnancy-related pain:",
-      "howNoaHelpsList": [
-        "<strong>Reflex rebalancing:</strong> The mobile air system helps maintain balanced posture",
-        "<strong>Tension relief:</strong> Micro-movements relax back muscles",
-        "<strong>Improved circulation:</strong> Important during pregnancy",
-        "<strong>Adaptive comfort:</strong> Adjusts to your body changes",
-        "<strong>Safe use:</strong> No contraindications during pregnancy"
-      ],
-      "usageTipsTitle": "Usage Tips",
-      "usageTipsContent": "During pregnancy, use the NOA cushion:",
-      "usageTipsList": [
-        "At the office during work hours",
-        "At home for meals and relaxation moments",
-        "In the car for trips",
-        "From early months until delivery"
-      ],
-      "conclusion": "<strong>Conclusion:</strong> The NOA cushion is a valuable ally for pregnant women, offering comfort and natural relief from back pain throughout pregnancy.",
-      "extendedIntro": "Pregnancy causes lumbar and pelvic pain without severity but they are signs of a baby developing in your belly. <strong>Different phenomena are linked to this:</strong>",
-      "image2": "/articles/pregnancy-02.jpg",
-      "phenomenaContent": "The uterus volume increases and therefore, stretching of the ligaments that support it in the pelvis occurs. Pregnant women may feel pain in the lower abdomen and legs. During pregnancy, hormones are also responsible for physiological changes. Relaxin is a hormone that promotes relaxation of connective tissues, ligaments and tendons, to help vaginal delivery, but which causes instability in pelvic statics. The center of gravity shifts forward due to weight gain from the uterus and breasts. Back muscles must constantly work to rebalance the pelvis, hence dorsal muscle contractures and pain. Dorsal and abdominal muscles are antagonists. But they are also complementary to support the trunk, hence the importance of balance between the two. Mechanical constraints undergone by the musculoskeletal system of load-bearing joints such as the lumbar spine, lumbosacral joint, sacroiliac joints and pubic symphysis cause a series of pains that can be improved by using the cushion.",
-      "circulationContent": "Pregnant women risk circulatory problems during pregnancy. The uterus weight compresses the inferior vena cava that drains blood from the legs to the heart, which causes retention and can lead to formation of varicose veins, hemorrhoids, especially in case of sedentary lifestyle. Ischial support in sitting position causes poorer vascularization since veins and vessels pass through there. The perineum is put to the test during pregnancy. The uterus and baby's weight press heavily on the perineum, a true floor that holds the viscera. It weakens and relaxes from the 12th week. It is important to strengthen it.",
-      "whySitTitle": "Why sit on the cushion?",
-      "whySitContent": "A first benefit lies in posture improvement. To improve spinal statics, in sitting position, you must exercise self-lengthening upward while avoiding leaning against the backrest. The cushion reactivates spinal erector muscles and allows a natural position with improvement of the three spinal curves. An additional benefit to sitting on the cushion: you do gentle fitness! Strengthening deep muscles such as the transverse is possible thanks to the cushion. The imperceptible instability and automatic correction of our posture on the cushion makes our deep abdominal belt work without feeling it. An additional benefit of the cushion is at the perineum level. The cushion's shape and dynamics help pregnant women better feel their perineum to better strengthen it. It reduces pressure on this muscle which allows better vascularization, better freedom of movement to contract it but also help in relaxing it at the time of delivery. In immediate postpartum, it allows resting the pelvic floor by its cut-out shape that prevents pressure on a possible episiotomy or temporary sensitivity related to delivery.",
-      "finalContent": "It is therefore an ally for pregnant women for comfort during pregnancy but also in immediate postpartum and beyond. It improves blood circulation by reducing pressure on the pelvic floor and by imperceptible pelvis movements. The cushion bridges between body asymmetry, sometimes increased by ligament instability related to pregnancy, and furniture symmetry. Adopting the cushion throughout the day will help pregnant women experience their pregnancy more serenely as well as the period after pregnancy."
-    }
-  },
-  "press": {
-    "title": "Press Release",
-    "subtitle": "The Noa cushion, for healthy and dynamic sitting",
-    "intro": "Are you sitting comfortably? Whether working from home, at the office, or at school, we spend an average of 8 to 12 hours a day on a chair.",
-    "problem": "However, prolonged static sitting creates back problems. But not only that. It also slows blood circulation, and therefore the supply of oxygen throughout the body. It creates attention disorders. And it also increases the risk of major organ function problems.",
-    "solution": "Think about adopting a dynamic sitting position.<br/>Designed and made in Belgium, the Noa cushion reduces the negative effects of prolonged sitting on your health. Its ultra-light air cushion induces a dynamic sitting position by creating slight instability, which helps you reactivate your muscles, without necessarily realizing it.",
-    "pressImage": "/press/press-release-image.jpg",
-    "downloads": {
-      "fr": {
-        "label": "press release FR",
-        "url": "/press/press-release-fr.pdf"
-      },
-      "nl": {
-        "label": "press release NL",
-        "url": "/press/press-release-nl.pdf"
-      }
-    },
-    "imagesTitle": "Image Downloads",
-    "copyright": "copyright© photos : noatec.eu",
-    "images": [
-      {
-        "name": "Black Antislip",
-        "web": "/press/cushion-black-antislip-web.jpg",
-        "print": "/press/cushion-black-antislip-print.jpg"
-      },
-      {
-        "name": "Dark Blue Antislip",
-        "web": "/press/cushion-darkblue-antislip-web.jpg",
-        "print": "/press/cushion-darkblue-antislip-print.jpg"
-      },
-      {
-        "name": "Electric Blue Antislip",
-        "web": "/press/cushion-electricblue-antislip-web.jpg",
-        "print": "/press/cushion-electricblue-antislip-print.jpg"
-      },
-      {
-        "name": "Green Antislip",
-        "web": "/press/cushion-green-antislip-web.jpg",
-        "print": "/press/cushion-green-antislip-print.jpg"
-      },
-      {
-        "name": "Orange Antislip",
-        "web": "/press/cushion-orange-antislip-web.jpg",
-        "print": "/press/cushion-orange-antislip-print.jpg"
-      },
-      {
-        "name": "Yellow Antislip",
-        "web": "/press/cushion-yellow-antislip-web.jpg",
-        "print": "/press/cushion-yellow-antislip-print.jpg"
-      },
-      {
-        "name": "Girl Distracted",
-        "web": "/press/girl-distracted-web.jpg",
-        "print": "/press/girl-distracted-print.jpg"
-      },
-      {
-        "name": "Girl Physiotherapist",
-        "web": "/press/girl-physiotherapist-web.jpg",
-        "print": "/press/girl-physiotherapist-print.jpg"
-      },
-      {
-        "name": "Man Back Pain",
-        "web": "/press/man-back-pain-web.jpg",
-        "print": "/press/man-back-pain-print.jpg"
-      },
-      {
-        "name": "Man Neck Pain",
-        "web": "/press/man-neck-pain-web.jpg",
-        "print": "/press/man-neck-pain-print.jpg"
-      },
-      {
-        "name": "Woman Back Pain",
-        "web": "/press/woman-back-pain-web.jpg",
-        "print": "/press/woman-back-pain-print.jpg"
-      },
-      {
-        "name": "Pregnant Woman",
-        "web": "/press/woman-pregnant-web.jpg",
-        "print": "/press/woman-pregnant-print.jpg"
-      },
-      {
-        "name": "Elderly Sitting",
-        "web": "/press/old-sitting-web.jpg",
-        "print": "/press/old-sitting-print.jpg"
-      },
-      {
-        "name": "Elderly Training",
-        "web": "/press/old-training-web.jpg",
-        "print": "/press/old-training-print.jpg"
-      },
-      {
-        "name": "Chair Horizontal",
-        "web": "/press/chair-horizontal-web.jpg",
-        "print": "/press/chair-horizontal-print.jpg"
-      },
-      {
-        "name": "Chair Vertical",
-        "web": "/press/chair-vertical-web.jpg",
-        "print": "/press/chair-vertical-print.jpg"
-      }
-    ],
-    "webButton": "web",
-    "printButton": "print"
-  },
-  "manual": {
-    "title": "User Manual",
-    "firstUse": {
-      "title": "FIRST USE",
-      "image": "/manual/first-use.png",
-      "content": "Your NOA cushion is delivered vacuum-sealed. The valve cap may therefore be difficult to open the first time. Push on the valve button and allow the foam contained in the cushion time to fully relax. The cushion will be 100% operational when you have inflated and deflated it several times."
-    },
-    "deflate": {
-      "title": "DEFLATE THE CUSHION",
-      "content": "To deflate your cushion for storage or transport, press the valve button before standing up, until the air is completely emptied and close the cap to prevent it from self-inflating."
-    },
-    "subsequentUse": {
-      "title": "SUBSEQUENT USES",
-      "image": "/manual/subsequent-use.png",
-      "content": "Open the valve cap and press the button for a few seconds to allow your cushion to inflate, then release the button. Sit on the cushion with your feet flat, without crossing your legs. If needed, press the button lightly if you want to adjust the seating comfort and reduce the cushion dynamics. Close the valve cap."
-    },
-    "maintenance": {
-      "title": "MAINTENANCE",
-      "content": "To change or wash the cover, first remove the ring, connected to the cap, that encircles the valve. Remove the cover from the pocket. The cover can be machine washed at 30°. The plastic pocket can be washed with a damp sponge. Never immerse it!"
-    },
-    "replaceCover": {
-      "title": "REPLACE THE COVER",
-      "image": "/manual/replace-cover.png",
-      "content": "To replace the cover on the air pocket, slide the air pocket into the cover without the cap. Insert the valve without the cap into the hole made in the fabric. Replace the cap ring around the valve from the outside."
-    }
-  },
-  "howToUse": {
-    "title": "How to use it",
-    "subtitle": "Let's discover together...",
-    "howToUse": "how to use your new <strong>NOA</strong> cushion",
-    "instruction": "When you sit on the NOA cushion, tilt your pelvis forward (see photo below <span class=\"text-brand-green font-bold text-xl\">✓</span>). Make sure to rest on your thighs and lower buttocks (never on upper buttocks <span class=\"text-red-600 font-bold text-xl\">✗</span>). This will allow you to straighten your spine and sit correctly.",
-    "mainImage": "/how-to-use/main-image.jpg",
-    "noaHelpsYou": "NOA helps you:",
-    "benefits": [
-      {
-        "number": "1",
-        "text": "to tilt the pelvis forward"
-      },
-      {
-        "number": "2",
-        "text": "to straighten the rib cage to free breathing and lower the shoulders"
-      },
-      {
-        "number": "3",
-        "text": "to reposition the head in line with the shoulders and stretch the neck"
-      }
-    ],
-    "amplifyEffect": "Amplify the beneficial effect of the cushion by moving your pelvis according to your desires and needs. Discover the movements that suit you best: left-right swaying, circular pelvis movement in both directions, forward imbalance, ...",
-    "usage": "For it to be effective, use NOA every time you sit. Take it everywhere. Stand up and move whenever you have the opportunity. The NOA cushion is a complement to the overall care of your body. It reduces problems related to static sitting but does not replace physical activity! The cushion can also be used vertically against your backrest for a rest phase."
   },
   "contact": {
     "title": "Contact Us",
@@ -462,105 +22,16 @@
     "formSending": "Sending...",
     "formSubmit": "Send",
     "formSuccess": "Message sent successfully!",
-    "formError": "Error sending message",
     "successTitle": "Thank you for contacting us!",
     "successMessage": "We have received your message and will get back to you as soon as possible.",
     "successCta": "Back to Home",
     "successSecondary": "Send Another Message",
     "infoTitle": "Contact Information",
     "infoEmail": "Email",
-    "infoPhone": "Phone",
-    "infoAddress": "Address",
-    "email": {
-      "subject": "Contact Form: {subject}",
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone",
-      "notProvided": "Not provided",
-      "message": "Message",
-      "adminGreeting": "Hi there! 👋",
-      "adminNewMessage": "You have received a new message from your website's contact form! 📬",
-      "adminContactInfo": "👤 Contact Information",
-      "adminMessageTitle": "💬 Message",
-      "adminTip": "💡 Tip: You can reply directly to this email - it will go to {email}",
-      "adminContactInfoText": "CONTACT INFORMATION",
-      "adminMessageText": "MESSAGE",
-      "confirmationSubject": "We received your message",
-      "confirmationGreeting": "Hello {name},",
-      "confirmationText": "Thank you for contacting us. We have received your message and will get back to you as soon as possible.",
-      "confirmationYourMessage": "Your message:",
-      "confirmationRegards": "Best regards,\nThe NOA Technologies Team",
-      "signature": "The NOA Technologies Team"
-    }
-  },
-  "newsletter": {
-    "title": "Subscribe to Our Newsletter",
-    "subtitle": "Stay updated with our latest news and exclusive offers",
-    "formName": "Name",
-    "formEmail": "Email",
-    "formSubmit": "Subscribe",
-    "formSending": "Subscribing...",
-    "formSuccess": "Please check your email to verify your subscription!",
-    "formError": "Error subscribing. Please try again.",
-    "formAlreadySubscribed": "This email is already subscribed.",
-    "email": {
-      "verificationSubject": "Verify your newsletter subscription",
-      "verificationGreeting": "Hello {name},",
-      "verificationText": "Thank you for subscribing to our newsletter! To complete your subscription, please verify your email address by clicking the button below:",
-      "verificationLinkLabel": "Verify Email Address",
-      "expiryText": "This verification link will expire in 24 hours.",
-      "ignoreText": "If you didn't subscribe to our newsletter, you can safely ignore this email.",
-      "welcomeSubject": "Welcome to NOA Technologies Newsletter!",
-      "welcomeGreeting": "Hello {name},",
-      "welcomeTitle": "Welcome to the NOA Technologies newsletter! 🎉",
-      "welcomeText": "Your email address has been successfully verified. You'll now receive our latest updates, news, and exclusive content.",
-      "welcomeUnsubscribeTitle": "You can unsubscribe at any time by clicking the link below:",
-      "welcomeUnsubscribeLink": "Unsubscribe from newsletter",
-      "welcomeRegards": "Best regards,\nThe NOA Technologies Team",
-      "welcomeSignature": "The NOA Technologies Team",
-      "unsubscribeConfirmSubject": "Confirm unsubscription",
-      "unsubscribeConfirmGreeting": "Hello {name},",
-      "unsubscribeConfirmRegards": "Best regards,\nThe NOA Technologies Team",
-      "unsubscribedSubject": "You've been unsubscribed",
-      "unsubscribedGreeting": "Hello {name},",
-      "unsubscribedText": "You have been successfully unsubscribed from our newsletter. You will no longer receive promotional emails from us.",
-      "resubscribeText": "If you change your mind, you can always subscribe again through our website.",
-      "feedbackText": "We would love to hear your feedback about why you unsubscribed. Your input helps us improve our service.",
-      "unsubscribedRegards": "Best regards,\nThe NOA Technologies Team"
-    },
-    "verification": {
-      "title": "Email Verified!",
-      "message": "Thank you for verifying your email. You're now subscribed to our newsletter.",
-      "error": "Invalid or expired verification link.",
-      "backToHome": "Back to Home"
-    },
-    "unsubscribe": {
-      "title": "Unsubscribe",
-      "message": "Are you sure you want to unsubscribe from our newsletter?",
-      "confirm": "Yes, unsubscribe me",
-      "cancel": "Cancel",
-      "success": "You've been unsubscribed",
-      "successMessage": "You've been successfully unsubscribed from our newsletter.",
-      "error": "Invalid unsubscribe link."
-    }
-  },
-  "products": {
-    "title": "Our Products",
-    "subtitle": "Discover the different NOA cushion variants and find the color that suits you best.",
-    "goToStore": "Go to online store",
-    "empty": "No products are available at the moment. Please check back later.",
-    "allCategories": "All Products",
-    "categories": {
-      "cushion": "Cushions",
-      "cover": "Covers",
-      "spare": "Spare Parts",
-      "other": "Other"
-    }
+    "infoAddress": "Address"
   },
   "auth": {
     "adminOrders": "Orders",
-    "adminStock": "Products",
-    "adminCustomers": "Customers",
     "myAccount": "My Account",
     "loginTitle": "Sign In",
     "loginDescription": "Enter your credentials to access your account",
@@ -586,9 +57,6 @@
     "signup": "Sign up",
     "logout": "Logout",
     "accountSettings": "Settings",
-    "myOrders": "Orders",
-    "customerPortal": "Customer Portal",
-    "billingPortal": "Billing",
     "adminSection": "Administration",
     "accountSection": "Account",
     "loading": "Loading...",
@@ -596,8 +64,6 @@
     "accessDeniedDescription": "You do not have permission to access this page.",
     "adminAccessRequired": "This page requires administrator privileges.",
     "backToHome": "Back to Home",
-    "passwordMismatch": "Passwords do not match",
-    "passwordTooShort": "Password must be at least 8 characters",
     "emailNotVerified": "Email not verified",
     "resendVerification": "Resend verification email",
     "verificationSent": "Verification email sent! Check your inbox.",
@@ -610,7 +76,6 @@
     "redirectingToLogin": "You will be redirected to the login page in a few seconds...",
     "goToLogin": "Go to Login",
     "invalidLink": "The verification link is invalid. Please request a new verification email.",
-    "expiredLink": "This verification link has expired. Please request a new verification email.",
     "tryToLogin": "Try to Login",
     "createNewAccount": "Create New Account",
     "resetPasswordTitle": "Reset Your Password",
@@ -621,7 +86,6 @@
     "passwordResetSuccess": "Password Reset!",
     "passwordResetSuccessMessage": "Your password has been successfully reset.",
     "passwordResetFailed": "Reset Failed",
-    "passwordResetError": "Failed to reset password. Please try again.",
     "invalidResetLink": "The reset link is invalid. Please request a new password reset.",
     "expiredResetLink": "This reset link has expired. Please request a new password reset.",
     "checkYourEmail": "Check Your Email!",
@@ -632,282 +96,25 @@
     "forgotPasswordText": "It looks like the password might be incorrect. Would you like to reset it?",
     "resetPasswordLink": "Reset Password",
     "resetPasswordEmailSent": "Password reset email sent! Check your inbox.",
-    "passwordResetEmailSent": "Password reset email sent! Check your inbox.",
-    "passwordResetEmailError": "Failed to send reset email. Please try again.",
     "changePasswordButton": "Send Password Reset Email",
     "changePasswordDescription": "Change your password to keep your account secure",
     "security": "Security",
-    "billing": "Billing & Invoices",
-    "billingHistory": "Billing History",
-    "billingHistoryDescription": "View and manage your invoices, payment methods, and subscription details",
-    "viewInvoices": "View Invoices",
-    "billingPortalError": "Failed to open billing portal. Please try again.",
     "orContinueWith": "Or continue with",
     "continueWithGoogle": "Continue with Google",
-    "backToHome": "Back to Home",
     "accountDescription": "Manage your user account information",
     "nameLabel": "Name",
     "emailLabel": "Email",
     "verified": "Verified",
     "memberSince": "Member since",
     "resetEmailSent": "Password reset email sent! Check your inbox.",
-    "resetEmailError": "Failed to send reset email. Please try again.",
-    "emailMessages": {
-      "verificationSubject": "Verify your email address",
-      "verificationGreeting": "Hello {name},",
-      "verificationText": "Thank you for creating an account with NOA Technologies! To complete your registration, please verify your email address by clicking the link below:",
-      "verificationLinkLabel": "Verify Email Address:",
-      "verificationExpiry": "This link will expire in 24 hours.",
-      "verificationIgnore": "If you didn't create an account, you can safely ignore this email.",
-      "passwordResetSubject": "Reset your password",
-      "passwordResetGreeting": "Hello {name},",
-      "passwordResetText": "We received a request to reset your password. Click the link below to create a new password:",
-      "passwordResetLinkLabel": "Reset Password:",
-      "passwordResetExpiry": "This link will expire in 1 hour.",
-      "passwordResetIgnore": "If you didn't request a password reset, you can safely ignore this email."
-    }
-  },
-  "basket": {
-    "title": "Shopping Basket",
-    "empty": "Your basket is empty",
-    "emptyDescription": "Add some products to your basket to get started",
-    "continueShopping": "Continue Shopping",
-    "items": "items",
-    "quantity": "Quantity",
-    "total": "Total",
-    "clearBasket": "Clear Basket",
-    "proceedToCheckout": "Proceed to Checkout",
-    "processing": "Processing...",
-    "loginRequired": "Please login to proceed to checkout",
-    "addToBasket": "Add to Basket",
-    "outOfStock": "Out of Stock",
-    "restocking": "Restocking",
-    "restockingNotice": "Currently being restocked. Processing time may be longer.",
-    "added": "Added!",
-    "addedToBasket": "Added to Basket",
-    "viewBasket": "View Basket"
-  },
-  "checkout": {
-    "title": "Checkout",
-    "loading": "Loading checkout...",
-    "verifying": "Verifying payment...",
-    "confirmLeave": "Are you sure you want to leave checkout? Your progress will not be saved.",
-    "confirmLeaveDescription": "Your checkout session will be lost and you will have to start over.",
-    "success": "Order Successful!",
-    "successDescription": "Thank you for your order. Your payment has been processed successfully.",
-    "confirmationEmail": "You will receive a confirmation email shortly.",
-    "confirmationEmailSent": "A confirmation email has been sent to {email}.",
-    "backToHome": "Back to Home",
-    "continueShopping": "Continue Shopping",
-    "error": "Checkout Error",
-    "errorDescription": "There was an error processing your checkout. Please try again.",
-    "backToBasket": "Back to Basket",
-    "incompleteAddress": "Incomplete shipping address",
-    "shippingCalculationError": "Unable to calculate shipping. Please try again.",
-    "cancel": "Cancel",
-    "confirm": "Confirm"
-  },
-  "orders": {
-    "title": "My Orders",
-    "description": "View and track your orders",
-    "loading": "Loading orders...",
-    "noOrders": "No orders yet",
-    "noOrdersDescription": "Your orders will appear here once you make a purchase",
-    "errorLoading": "Failed to load orders. Please try again.",
-    "paidSuccessfully": "Payment Successful",
-    "paidOn": "Paid on",
-    "orderedAt": "Ordered on",
-    "orderId": "Order ID",
-    "items": "Order Items",
-    "quantity": "Quantity",
-    "trackingInfo": "Tracking Information",
-    "trackingNumber": "Tracking Number",
-    "tracking": "Track Parcel",
-    "carrier": "Shipping Carrier",
-    "trackPackage": "Track Package",
-    "invoice": "Invoice",
-    "viewInvoice": "Receipt and Invoice",
-    "downloadReceipt": "Download Invoice",
-    "timeline": "Order Timeline",
-    "orderPaid": "Order Paid",
-    "orderShipped": "Order Shipped",
-    "orderDelivered": "Order Delivered",
-    "orderNumber": "Order Number",
-    "creditNote": "Credit Note",
-    "download": "Download",
-    "downloadCreditNote": "Download Credit Note",
-    "status": {
-      "awaiting_shipment": "Awaiting Shipment",
-      "shipped": "Shipped",
-      "delivered": "Delivered",
-      "cancelled": "Cancelled"
-    }
-  },
-  "orderEmail": {
-    "customer": {
-      "subject": "Order Confirmation - Thank you for your purchase!",
-      "orderConfirmedTitle": "Order Confirmed",
-      "paymentSuccessful": "Payment Successful",
-      "greeting": "Hello {{name}},",
-      "confirmationMessage": "Thank you for your order! Your payment has been successfully processed.",
-      "orderSummary": "Order Summary",
-      "quantityLabel": "Qty",
-      "totalLabel": "Total",
-      "orderNumberLabel": "Order Number",
-      "orderDateLabel": "Order Date",
-      "nextStepsMessage": "We will process your order and send you a shipping notification once your items are on their way.",
-      "trackOrderButton": "Track My Order",
-      "signature": "Best regards,<br>The NOATEC Team",
-      "footerMessage": "If you have any questions about your order, please don't hesitate to contact us.",
-      "contactUs": "Contact Us"
-    },
-    "admin": {
-      "subject": "New Order Received - Action Required",
-      "newOrderTitle": "New Order Received",
-      "actionRequired": "Action Required",
-      "greeting": "Hello Admin,",
-      "orderDetailsTitle": "Order Details",
-      "orderNumberLabel": "Order Number",
-      "orderDateLabel": "Order Date",
-      "invoiceLabel": "Invoice ID",
-      "paymentLabel": "Payment Status",
-      "paymentStatus": "Paid ✓",
-      "customerInfoTitle": "Customer Information",
-      "nameLabel": "Name",
-      "emailLabel": "Email",
-      "shippingAddressLabel": "Shipping Address",
-      "orderItemsTitle": "Order Items",
-      "quantityLabel": "Qty",
-      "totalLabel": "Total",
-      "actionRequiredTitle": "Action Required",
-      "actionRequiredMessage": "Please process this order and prepare the items for shipment.",
-      "viewDashboardButton": "View in Stripe Dashboard",
-      "signature": "NOATEC Order Management System"
-    }
-  },
-  "trackingEmail": {
-    "subject": "Your order is on its way - Tracking information",
-    "title": "Tracking Information Available",
-    "badge": "Shipped",
-    "greeting": "Hello {{name}},",
-    "message": "Great news! Your order has been shipped and is now on its way to you. You can track your package using the information below.",
-    "orderNumberLabel": "Order Number",
-    "trackingNumberLabel": "Tracking Number",
-    "carrierLabel": "Carrier",
-    "trackButton": "Track Your Package",
-    "signature": "Best regards,<br>The NOATEC Team",
-    "footerMessage": "If you have any questions about your delivery, please don't hesitate to contact us.",
-    "contactUs": "Contact Us"
+    "resetEmailError": "Failed to send reset email. Please try again."
   },
   "admin": {
-    "orders": {
-      "title": "Manage Orders",
-      "description": "View and manage all customer orders",
-      "searchPlaceholder": "Search by tracking number...",
-      "search": "Search",
-      "filterByStatus": "Filter by Status",
-      "allStatuses": "All Statuses",
-      "clearFilter": "Clear Filter",
-      "clearAllFilters": "Clear All Filters",
-      "pageSize": "Page Size",
-      "customer": "Customer",
-      "orderDate": "Order Date",
-      "amount": "Amount",
-      "invoiceStatus": "Invoice Status",
-      "status": "Shipping Status",
-      "paymentStatus": "Payment Status",
-      "shippingStatus": "Shipping Status",
-      "tracking": "Tracking",
-      "actions": "Actions",
-      "edit": "Edit",
-      "noOrders": "No orders found",
-      "errorLoading": "Failed to load orders. Please try again.",
-      "showing": "Showing {from} to {to} of {total} orders",
-      "previous": "Previous",
-      "next": "Next",
-      "editOrder": "Edit Order",
-      "editOrderDescription": "Update order status and tracking information",
-      "trackingNumber": "Tracking Number",
-      "trackingNumberPlaceholder": "Enter tracking number",
-      "trackingUrl": "Tracking URL",
-      "trackingUrlPlaceholder": "Enter tracking URL",
-      "carrierName": "Carrier Name",
-      "carrierNamePlaceholder": "Enter carrier name",
-      "sendcloudOrderId": "SendCloud Order ID",
-      "sendcloudOrderIdPlaceholder": "Enter SendCloud order ID",
-      "cancel": "Cancel",
-      "save": "Save",
-      "saving": "Saving...",
-      "updateSuccess": "Order updated successfully",
-      "updateError": "Failed to update order",
-      "createOrderInvoice": "Create Order / Invoice",
-      "editShippingDetails": "Edit Shipping Details",
-      "editShippingDescription": "Update shipping status, tracking information, and carrier details for this order.",
-      "viewInStripe": "View in Stripe",
-      "selectShipping": "Select Shipping",
-      "applyDiscounts": "Apply Discounts",
-      "removeDiscounts": "Remove Discounts",
-      "selectShippingOption": "Select Shipping Option",
-      "selectShippingDescription": "Choose a shipping carrier and option for this draft order.",
-      "loadingShippingOptions": "Loading shipping options...",
-      "noShippingOptions": "No shipping options available",
-      "availableShippingOptions": "Available Shipping Options",
-      "saveShippingOption": "Save Shipping Option",
-      "realCost": "Real cost",
-      "updatingOrders": "Updating orders...",
-      "trackingLabel": "Tracking",
-      "trackingNumberPrefix": "Tracking #",
-      "customerColumn": "Customer",
-      "dateColumn": "Date",
-      "amountColumn": "Amount",
-      "invoiceColumn": "Invoice",
-      "roleColumn": "Role",
-      "discountsColumn": "Discounts",
-      "creditNotesColumn": "Credit Notes",
-      "shippingColumn": "Shipping",
-      "actionsColumn": "Actions",
-      "awaiting": "Awaiting",
-      "shipped": "Shipped",
-      "delivered": "Delivered",
-      "loading": "Loading...",
-      "failedToLoadShippingOptions": "Failed to load shipping options",
-      "shippingOptionUpdated": "Shipping option updated successfully",
-      "failedToUpdateShippingOption": "Failed to update shipping option",
-      "appliedDiscounts": "Applied {count} discount(s)",
-      "noApplicableDiscounts": "No applicable discounts found for this customer",
-      "failedToApplyDiscounts": "Failed to apply discounts",
-      "discountsRemoved": "Discounts removed successfully",
-      "failedToRemoveDiscounts": "Failed to remove discounts",
-      "invoiceStatusValues": {
-        "draft": "Draft",
-        "open": "Open",
-        "paid": "Paid",
-        "void": "Void",
-        "uncollectible": "Uncollectible"
-      }
-    },
-    "stock": {
-      "title": "Stock Management",
-      "description": "Manage product stock quantities",
-      "currentStock": "Current Stock",
-      "setQuantity": "Set Quantity",
-      "noProducts": "No products found",
-      "loadError": "Failed to load products",
-      "dialogTitle": "Update Stock Quantity",
-      "quantity": "Quantity",
-      "cancel": "Cancel",
-      "save": "Save",
-      "saving": "Saving...",
-      "updateSuccess": "Stock updated successfully",
-      "updateError": "Failed to update stock",
-      "invalidQuantity": "Please enter a valid quantity"
-    },
     "customers": {
       "title": "Customer Management",
       "description": "Manage customer roles",
       "searchPlaceholder": "Search by email, name...",
       "search": "Search",
-      "clearSearch": "Clear Search",
       "filterByRole": "Filter by Role",
       "allRoles": "All Roles",
       "clearAllFilters": "Clear All Filters",
@@ -925,57 +132,12 @@
       "showing": "Showing {from} to {to} of {total} customers",
       "previous": "Previous",
       "next": "Next",
-      "editCustomerRole": "Edit Customer Role",
-      "editCustomerRoleDescription": "Update customer role classification",
-      "selectRole": "Select role",
-      "cancel": "Cancel",
-      "save": "Save",
-      "saving": "Saving...",
       "updateSuccess": "Customer role updated successfully",
-      "updateError": "Failed to update customer role",
-      "loading": "Loading...",
       "roles": {
         "revendeur": "Reseller",
         "particulier": "Individual"
       }
     }
-  },
-  "errors": {
-    "generic": "An error occurred. Please try again later",
-    "badRequest": "Invalid request",
-    "invalidRequestBody": "Invalid request body",
-    "invalidRequestParams": "Invalid request params",
-    "invalidQueryParameters": "Invalid query parameters",
-    "unauthorized": "Authentication required",
-    "forbidden": "Access forbidden",
-    "notFound": "Resource not found",
-    "invalidUnsubscribeCode": "Invalid unsubscribe code",
-    "invalidVerificationCode": "Invalid or expired verification code",
-    "missingStripeSignature": "Missing stripe signature header",
-    "invalidWebhookSignature": "Invalid webhook signature",
-    "missingInvoiceId": "Missing invoice ID in webhook payload",
-    "invoiceNotFoundWithId": "Invoice not found: {invoiceId}",
-    "failedToValidateProducts": "Failed to validate products",
-    "invalidCaptcha": "Invalid reCAPTCHA verification",
-    "invalidApiResponse": "Invalid API response format",
-    "sessionIdRequired": "Session ID is required",
-    "verificationCodeRequired": "Verification code is required",
-    "invoiceNotFound": "Invoice not found",
-    "invoiceNotDraft": "Invoice not in draft status",
-    "noCustomerOnInvoice": "No customer found on invoice",
-    "noShippingAddress": "No shipping address found on invoice",
-    "noLineItems": "No line items found on invoice",
-    "noShippingOptions": "No shipping options available for this address",
-    "shippingRateNotFound": "Selected shipping rate not found",
-    "missingShippingRate": "Missing shipping rate for invoice {invoiceId}",
-    "customerNotFound": "Customer not found",
-    "noCustomerName": "No customer name found for shipping details",
-    "invalidCustomerMetadata": "Customer with ID {customerId} has invalid metadata",
-    "invalidMetadata": "Invalid metadata for {type} {id}: {validation}",
-    "invalidProductMetadata": "Invalid product metadata for product ID: {productId}",
-    "productMetadataMissing": "Product {productName} is missing metadata. Please add required metadata fields in Stripe",
-    "productOutOfStock": "Product {productName} is out of stock",
-    "emailAlreadySubscribed": "Email already subscribed"
   },
   "footer": {
     "cgv": "Terms and Conditions of Sale",
